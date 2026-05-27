@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  news-webhook-receiver:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "18082:18082"
+    environment:
+      BVNW_RECEIVER_PORT: "18082"
+      BVNW_RECEIVER_QUEUE: "runtime/inbound_queue.jsonl"
+      BVNW_RECEIVER_LEDGER: "runtime/ledger.json"
+      BVNW_ASSISTANT_WAKE_URL: "http://host.docker.internal:8080/webhook/slash"
+      BVNW_ASSISTANT_WAKE_TIMEOUT_SECONDS: "2"
+    volumes:
+      - .:/app
