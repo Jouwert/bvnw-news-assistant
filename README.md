@@ -1,6 +1,6 @@
 # bvnw-news-assistant
 
-Documentation for an **OpenClaw-based** bounded neighbourhood-news drafting workflow for **Bewonersvereniging Wageningen Noordwest (BVNW)**.
+A bounded neighbourhood-news drafting workflow for **Bewonersvereniging Wageningen Noordwest (BVNW)**, built on **OpenClaw** and a private Telegram editorial flow.
 
 ## What is in scope
 This repository brings together four related parts of the workflow:
@@ -111,9 +111,4 @@ The underlying project already produced multiple real shortlist, draft, and fina
 - Instead of drafting every item from scratch, editors review a shortlist, select promising items, and work from bounded drafts. That greatly lowers the effort required to keep community communications active.
 - Useful local signals from chats and submissions are less likely to get lost, because they are turned into a structured editorial queue.
 - The result is a practical human-in-the-loop publishing flow that helps attract people into the neighbourhood WhatsApp community without requiring a full editorial team.
-
-## Next likely additions
-Likely next additions:
-- one sanitized note on source-photo retrieval behaviour;
-- one small artifact around deduplication/archive checks;
 
