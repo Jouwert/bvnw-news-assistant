@@ -78,7 +78,6 @@ bvnw-news-assistant/
 ├── README.md
 └── docs/
     ├── architecture-overview.md
-    ├── candidates-sanitized-technical-artifacts.md
     ├── deployment-decisions.md
     ├── public-private-boundaries.md
     ├── sanitized-technical-artifacts.md
@@ -117,4 +116,4 @@ The underlying project already produced multiple real shortlist, draft, and fina
 Likely next additions:
 - one sanitized note on source-photo retrieval behaviour;
 - one small artifact around deduplication/archive checks;
-- one later cleanup pass that removes candidate-only notes once the repo settles.
+
